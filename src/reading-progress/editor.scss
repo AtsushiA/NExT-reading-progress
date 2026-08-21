@@ -1,0 +1,20 @@
+/**
+ * Editor-only styles: the illustrative progress note is never part of the
+ * frontend output (render.php has no equivalent element).
+ */
+
+.wp-block-next-reading-progress {
+
+	.next-reading-progress-color-label {
+		margin-bottom: 8px;
+		font-weight: 500;
+	}
+
+	.next-reading-progress__editor-note {
+		display: block;
+		margin-top: 4px;
+		font-size: 12px;
+		font-style: italic;
+		color: #757575;
+	}
+}

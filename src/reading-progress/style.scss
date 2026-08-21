@@ -1,0 +1,18 @@
+/**
+ * Structural styles shared by the editor and the frontend.
+ * Colors, width and height are set inline per-attribute in
+ * edit.js / render.php.
+ */
+
+.wp-block-next-reading-progress {
+
+	.next-reading-progress {
+		box-sizing: border-box;
+
+		&__fill {
+			box-sizing: border-box;
+			height: 100%;
+			transition: width 0.1s linear;
+		}
+	}
+}

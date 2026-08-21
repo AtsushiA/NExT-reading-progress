@@ -1,0 +1,25 @@
+# Dependencies (reinstall with `npm install` / `composer install`)
+node_modules/
+vendor/
+
+# PHPUnit cache
+.phpunit.result.cache
+
+# npm/yarn logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Local Claude Code settings (personal overrides, not shared)
+.claude/settings.local.json
+
+# Local env files
+.env
+.env.local

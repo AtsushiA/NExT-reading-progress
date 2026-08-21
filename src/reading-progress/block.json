@@ -1,0 +1,61 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "next/reading-progress",
+	"version": "0.1.0",
+	"title": "Reading Progress Bar",
+	"category": "design",
+	"icon": "chart-bar",
+	"description": "ページ全体のスクロール進捗を表示するリーディングプログレスバーブロック。",
+	"keywords": [ "progress", "scroll", "reading bar" ],
+	"example": {},
+	"attributes": {
+		"useCustomWidth": {
+			"type": "boolean",
+			"default": false
+		},
+		"customWidth": {
+			"type": "number",
+			"default": 100
+		},
+		"customWidthUnit": {
+			"type": "string",
+			"default": "%"
+		},
+		"barHeight": {
+			"type": "number",
+			"default": 6
+		},
+		"barHeightUnit": {
+			"type": "string",
+			"default": "px"
+		},
+		"fillColor": {
+			"type": "string"
+		},
+		"fillGradient": {
+			"type": "string"
+		},
+		"trackColor": {
+			"type": "string",
+			"default": "#e0e0e0"
+		},
+		"zIndex": {
+			"type": "number"
+		}
+	},
+	"supports": {
+		"align": [ "wide", "full" ],
+		"html": false,
+		"interactivity": true,
+		"spacing": {
+			"margin": true
+		}
+	},
+	"textdomain": "next-reading-progress",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScriptModule": "file:./view.js"
+}
