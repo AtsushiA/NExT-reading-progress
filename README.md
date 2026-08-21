@@ -1,3 +1,5 @@
+*日本語 | [English](README.en.md)*
+
 # NExT Reading Progress
 
 ページ全体のスクロール進捗を表示するリーディングプログレスバーを提供する、WordPress用のGutenbergブロックプラグインです。
