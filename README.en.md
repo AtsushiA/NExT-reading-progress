@@ -2,6 +2,8 @@
 
 # NExT Reading Progress
 
+[![Try in WordPress Playground](https://img.shields.io/badge/Try%20in-WordPress%20Playground-3858e9?logo=wordpress)](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/AtsushiA/NExT-reading-progress/main/blueprint.json)
+
 A WordPress Gutenberg block plugin that displays a reading-progress bar for the whole page's scroll depth.
 
 ## Features
